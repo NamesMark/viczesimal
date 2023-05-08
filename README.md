@@ -1,5 +1,5 @@
 # Vičesimal
-Č, vičesimal or viczesimal is the best numeral system in existence. =
+Č, vičesimal or viczesimal is undoubtedly the best numeral system in existence. 
 
 # Numbers
 All the digits anyone could ever need and more:
