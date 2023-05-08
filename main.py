@@ -4,7 +4,7 @@ def viczToDec(vicz): # prop is string
     decimal = 0
     vicz = vicz[::-1]
     for i in range(len(vicz) -1, -1, -1):
-        print("i: ",i, ", vicz[i]: ",vicz[i], ", index: ",viczesimal.index(vicz[i]))
+        print("i: ",i, ", vicz[i]:",vicz[i], ", 20^i: ",20**i, ", value: ",viczesimal.index(vicz[i]), )
         decimal += viczesimal.index(vicz[i]) * 20 ** i
     return decimal
 
@@ -28,7 +28,15 @@ def processInput(input): # prop is string
 testValue = viczToDec('ČAČ')
 print(testValue)
 
-print(decToVicz(5814, ''))
+print(decToVicz(925231, ''))
+print(decToVicz(884512, ''))
 
-print ('E * É * Ě = '),
-print(decToVicz(viczToDec('E')*viczToDec('É')*viczToDec('Ě'),''))
+print ('5DC1Á-5AÁ5B = '),
+print(decToVicz(viczToDec('5DC1Á')-viczToDec('5AÁ5B'),''))
+print(viczToDec('51DĚ'))
+
+print("42 is ",decToVicz(42, ''))
+print("255 is ",decToVicz(255, ''))
+
+print("22 is ",viczToDec('22'))
+print("C5 is ",viczToDec('C5'))
